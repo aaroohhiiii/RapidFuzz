@@ -1,0 +1,338 @@
+{
+  "hitCount": 13000,
+  "nextCursorMark": "AoIIQIdPaig1Njc3NzYzOQ==",
+  "nextPageUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=semaglutide+AND+OPEN_ACCESS%3AY&cursorMark=AoIIQIdPaig1Njc3NzYzOQ%3D%3D&resultType=core&pageSize=2&format=json",
+  "request": {
+    "cursorMark": "*",
+    "pageSize": 2,
+    "queryString": "semaglutide AND OPEN_ACCESS:Y",
+    "resultType": "core",
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "affiliation": "Department of Nephrology, Traditional Chinese Medicine Northern Hospital, Baotou, Inner Mongolia, China.",
+        "authMan": "N",
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0009-0000-9941-0605"
+            }
+          ]
+        },
+        "authorList": {
+          "author": [
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Nephrology, Traditional Chinese Medicine Northern Hospital, Baotou, Inner Mongolia, China."
+                  }
+                ]
+              },
+              "authorId": {
+                "type": "ORCID",
+                "value": "0009-0000-9941-0605"
+              },
+              "firstName": "Wenlu",
+              "fullName": "Ma W",
+              "initials": "W",
+              "lastName": "Ma"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Nephrology, Traditional Chinese Medicine Northern Hospital, Baotou, Inner Mongolia, China."
+                  }
+                ]
+              },
+              "firstName": "Fangfang",
+              "fullName": "Xia F",
+              "initials": "F",
+              "lastName": "Xia"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Nephrology, Traditional Chinese Medicine Northern Hospital, Baotou, Inner Mongolia, China."
+                  }
+                ]
+              },
+              "firstName": "Dan",
+              "fullName": "Tao D",
+              "initials": "D",
+              "lastName": "Tao"
+            }
+          ]
+        },
+        "authorString": "Ma W, Xia F, Tao D.",
+        "citedByCount": 0,
+        "dateOfCreation": "2026-10-20",
+        "dateOfRevision": "2026-10-25",
+        "doi": "10.2337/dc26-0678",
+        "epmcAuthMan": "N",
+        "firstIndexDate": "2026-10-21",
+        "firstPublicationDate": "2026-11-01",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC13690983"
+          ]
+        },
+        "fullTextReceivedDate": "2026-10-24",
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.2337/dc26-0678"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC13690983"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC13690983?pdf=render"
+            }
+          ]
+        },
+        "hasBook": "N",
+        "hasData": "N",
+        "hasDbCrossReferences": "N",
+        "hasEvaluations": "N",
+        "hasLabsLinks": "N",
+        "hasPDF": "Y",
+        "hasReferences": "Y",
+        "hasSuppl": "N",
+        "hasTMAccessionNumbers": "N",
+        "hasTextMinedTerms": "N",
+        "id": "42900811",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "isOpenAccess": "Y",
+        "journalInfo": {
+          "dateOfPublication": "2026 Nov",
+          "issue": "11",
+          "journal": {
+            "essn": "1935-5548",
+            "isoabbreviation": "Diabetes Care",
+            "issn": "0149-5992",
+            "medlineAbbreviation": "Diabetes Care",
+            "nlmid": "7805975",
+            "title": "Diabetes care"
+          },
+          "journalIssueId": 4295200,
+          "monthOfPublication": 11,
+          "printPublicationDate": "2026-11-01",
+          "volume": "49",
+          "yearOfPublication": 2026
+        },
+        "language": "eng",
+        "nihAuthMan": "N",
+        "pageInfo": "e210",
+        "pmcid": "PMC13690983",
+        "pmid": "42900811",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Letter"
+          ]
+        },
+        "pubYear": "2026",
+        "publicationStatus": "ppublish",
+        "source": "MED",
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "title": "Oral Semaglutide and the Kidney: Promise, Limitations, and the Road Ahead."
+      },
+      {
+        "authMan": "N",
+        "authorList": {
+          "author": [
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "IRCCS Istituto Auxologico Italiano, Obesity Unit and Laboratory of Nutrition and Obesity Research, Department of Endocrine and Metabolic Diseases , ,\u00a0"
+                  }
+                ]
+              },
+              "firstName": "Simona",
+              "fullName": "Bertoli S",
+              "initials": "S",
+              "lastName": "Bertoli"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "IRCCS Istituto Auxologico Italiano, Obesity Unit and Laboratory of Nutrition and Obesity Research, Department of Endocrine and Metabolic Diseases , ,\u00a0"
+                  }
+                ]
+              },
+              "firstName": "Federica",
+              "fullName": "Barbera F",
+              "initials": "F",
+              "lastName": "Barbera"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "IRCCS Istituto Auxologico Italiano, Obesity Unit and Laboratory of Nutrition and Obesity Research, Department of Endocrine and Metabolic Diseases , ,\u00a0"
+                  }
+                ]
+              },
+              "firstName": "Chiara",
+              "fullName": "Cappellini C",
+              "initials": "C",
+              "lastName": "Cappellini"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "IRCCS Istituto Auxologico Italiano, Obesity Unit and Laboratory of Nutrition and Obesity Research, Department of Endocrine and Metabolic Diseases , ,\u00a0"
+                  }
+                ]
+              },
+              "firstName": "Alice",
+              "fullName": "Gotti A",
+              "initials": "A",
+              "lastName": "Gotti"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "International Center for the Assessment of Nutritional Status and the Development of Dietary Intervention Strategies (ICANS\u2010DIS), Department of Food, Environmental and Nutritional Sciences (DeFENS), University of Milan , ,\u00a0"
+                  }
+                ]
+              },
+              "firstName": "Alberto",
+              "fullName": "Battezzati A",
+              "initials": "A",
+              "lastName": "Battezzati"
+            }
+          ]
+        },
+        "authorString": "Bertoli S, Barbera F, Cappellini C, Gotti A, Battezzati A.",
+        "citedByCount": 0,
+        "dateOfCreation": "2026-10-27",
+        "dateOfRevision": "2026-10-27",
+        "epmcAuthMan": "N",
+        "firstIndexDate": "2026-10-27",
+        "firstPublicationDate": "2026-10-27",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC13696192"
+          ]
+        },
+        "fullTextReceivedDate": "2026-10-27",
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "html",
+              "site": "PubMedCentral",
+              "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13696192/?tool=EBI"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "pdf",
+              "site": "PubMedCentral",
+              "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13696192/pdf/?tool=EBI"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC13696192"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC13696192?pdf=render"
+            }
+          ]
+        },
+        "hasBook": "N",
+        "hasData": "N",
+        "hasDbCrossReferences": "N",
+        "hasEvaluations": "N",
+        "hasLabsLinks": "N",
+        "hasPDF": "Y",
+        "hasReferences": "N",
+        "hasSuppl": "N",
+        "hasTMAccessionNumbers": "N",
+        "hasTextMinedTerms": "N",
+        "id": "PMC13696192",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "isOpenAccess": "Y",
+        "journalInfo": {
+          "dateOfPublication": " ",
+          "journal": {
+            "essn": "1664-2392",
+            "isoabbreviation": "Front Endocrinol (Lausanne)",
+            "issn": "1664-2392",
+            "medlineAbbreviation": "Front Endocrinol (Lausanne)",
+            "nlmid": "101555782",
+            "title": "Frontiers in endocrinology"
+          },
+          "journalIssueId": 4299517,
+          "monthOfPublication": 0,
+          "volume": "17",
+          "yearOfPublication": 0
+        },
+        "keywordList": {
+          "keyword": [
+            "Body weight",
+            "Obesity",
+            "Food Craving",
+            "Semaglutide",
+            "Real World Evidence"
+          ]
+        },
+        "language": "eng",
+        "license": "cc by",
+        "nihAuthMan": "N",
+        "pmcid": "PMC13696192",
+        "pubModel": "Undetermined",
+        "pubTypeList": {
+          "pubType": [
+            "brief-report",
+            "Brief Report"
+          ]
+        },
+        "source": "PMC",
+        "title": "A retrospective real-world study on semaglutide effectiveness in patients with obesity: differences between patients with and without food craving"
+      }
+    ]
+  },
+  "version": "6.9"
+}

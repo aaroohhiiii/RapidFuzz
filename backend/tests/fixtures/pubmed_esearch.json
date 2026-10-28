@@ -1,0 +1,17 @@
+{
+  "esearchresult": {
+    "count": "266",
+    "idlist": [
+      "42904347",
+      "42679726"
+    ],
+    "querytranslation": "\"semaglutide\"[Title] AND \"randomized controlled trial\"[Publication Type]",
+    "retmax": "2",
+    "retstart": "0",
+    "translationset": []
+  },
+  "header": {
+    "type": "esearch",
+    "version": "0.3"
+  }
+}

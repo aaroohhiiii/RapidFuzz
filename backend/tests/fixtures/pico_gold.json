@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "todo": "Expand this starter set from 5 to 15-20 abstracts with reviewer-verified spans.",
+  "records": [
+    {
+      "id": "gold-01",
+      "abstract": "METHODS: Adults with obesity were randomized to semaglutide 2.4 mg or placebo. RESULTS: The primary outcome was change in body weight.",
+      "spans": [
+        {"label": "P", "start_char": 9, "end_char": 28, "span_text": "Adults with obesity"},
+        {"label": "I", "start_char": 48, "end_char": 66, "span_text": "semaglutide 2.4 mg"},
+        {"label": "C", "start_char": 70, "end_char": 77, "span_text": "placebo"},
+        {"label": "O", "start_char": 122, "end_char": 133, "span_text": "body weight"}
+      ]
+    },
+    {
+      "id": "gold-02",
+      "abstract": "METHODS: 80 adults with overweight received liraglutide 3.0 mg versus lifestyle intervention alone. The primary endpoint was percent weight change.",
+      "spans": [
+        {"label": "P", "start_char": 9, "end_char": 34, "span_text": "80 adults with overweight"},
+        {"label": "I", "start_char": 44, "end_char": 62, "span_text": "liraglutide 3.0 mg"},
+        {"label": "C", "start_char": 70, "end_char": 98, "span_text": "lifestyle intervention alone"},
+        {"label": "O", "start_char": 125, "end_char": 146, "span_text": "percent weight change"}
+      ]
+    },
+    {
+      "id": "gold-03",
+      "abstract": "Participants were randomized to tirzepatide or placebo. Waist circumference and HbA1c were secondary outcomes.",
+      "spans": [
+        {"label": "P", "start_char": 0, "end_char": 12, "span_text": "Participants"},
+        {"label": "I", "start_char": 32, "end_char": 43, "span_text": "tirzepatide"},
+        {"label": "C", "start_char": 47, "end_char": 54, "span_text": "placebo"},
+        {"label": "O", "start_char": 56, "end_char": 75, "span_text": "Waist circumference"},
+        {"label": "O", "start_char": 80, "end_char": 85, "span_text": "HbA1c"}
+      ]
+    },
+    {
+      "id": "gold-04",
+      "abstract": "Women aged 18 to 65 years were treated with semaglutide compared with usual care. Change in BMI was assessed at week 52.",
+      "spans": [
+        {"label": "P", "start_char": 0, "end_char": 25, "span_text": "Women aged 18 to 65 years"},
+        {"label": "I", "start_char": 44, "end_char": 55, "span_text": "semaglutide"},
+        {"label": "C", "start_char": 70, "end_char": 80, "span_text": "usual care"},
+        {"label": "O", "start_char": 92, "end_char": 95, "span_text": "BMI"}
+      ]
+    },
+    {
+      "id": "gold-05",
+      "abstract": "In a double-blind trial, 120 patients with obesity received a GLP-1 receptor agonist or placebo. The main outcome was weight loss.",
+      "spans": [
+        {"label": "P", "start_char": 25, "end_char": 50, "span_text": "120 patients with obesity"},
+        {"label": "I", "start_char": 62, "end_char": 84, "span_text": "GLP-1 receptor agonist"},
+        {"label": "C", "start_char": 88, "end_char": 95, "span_text": "placebo"},
+        {"label": "O", "start_char": 118, "end_char": 129, "span_text": "weight loss"}
+      ]
+    }
+  ]
+}

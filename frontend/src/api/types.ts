@@ -1,0 +1,19 @@
+export type Status='include'|'exclude'|'maybe'|'conflict'; export type PicoLabel='P'|'I'|'C'|'O';
+export interface QueryVersion{id:number;parent_id:number|null;label:string|null;query_text:string;query_struct:Record<string,unknown>|null;date_from:string|null;date_to:string|null;status:string;created_by:string|null;created_at:string}
+export interface QueryHit{query_version_id:number;source:string;hit_count:number;counted_at:string}
+export interface Run{id:number;query_version_id:number|null;step:string;rule_version:string|null;params:Record<string,unknown>|null;status:string;stats:Record<string,unknown>|null;started_at:string;finished_at:string|null}
+export interface Snapshot{query_version_id:number;signature:string;record_ids:number[];groups:number[][];effective_statuses:{members:number[];representative_record_id:number;status:Status;decided_by:string}[]}
+export interface QueryDiff{query_version_id:number;against:number;added:{record_id:number;previously_decided:boolean}[];removed:number[];unchanged_count:number;groups_newly_merged:{members:number[];old_group_ids:number[];old_groups:number[][]}[];new_conflicts:number[][];excluded_reappeared:number[];summary:Record<string,number>}
+export interface RecordSummary{id:number;source:string;source_id:string;pmid:string|null;doi:string|null;title:string|null;abstract:string|null;first_author:string|null;year:number|null;journal:string|null;pages:string|null;pub_types:string[]}
+export interface PicoSpan{id:number;source:'machine'|'human';label:PicoLabel;start_char:number;end_char:number;span_text:string;method:string;confidence:number|null}
+export interface Effective{status:Status;decided_by:'machine'|'human';reasons:string[];note:string|null;reviewer:string|null;group_id:number|null;representative_record_id:number}
+export interface ReviewRow{record:RecordSummary;effective:Effective;machine_decision:string|null;machine_reasons:string[];group_size:number;hidden:boolean;pico_spans:PicoSpan[]}
+export interface Page<T>{items:T[];counts:Record<Status,number>;limit:number;offset:number;total:number}
+export interface Criterion{id:number;code:string;label:string;kind:string;reason:string;source_type:string;active:boolean}
+export interface Screening{record_id:number;criteria:{criterion:Criterion;result:string;evidence:string|null;rule_version:string}[];machine_decision:{decision:string;reasons:string[]}}
+export interface Pair{record_a:RecordSummary;record_b:RecordSummary;method:string;score:number|null;machine_verdict:string;human_verdict:string|null;effective_verdict:string}
+export interface PairPage{items:Pair[];limit:number;offset:number;total:number}
+export interface Group{id:number;representative_record_id:number;members:{record:RecordSummary;is_representative:boolean}[];pair_evidence:{method:string;score:number|null}[]}
+export interface GroupPage{items:Group[];limit:number;offset:number;total:number}
+export interface Conflict{group_id:number;representative_record_id:number;members:{record:RecordSummary;latest_decision:string|null;reviewer:string|null}[]}
+export interface Audit{id:number;entity_type:string;entity_id:string;action:string;actor:string;before:unknown;after:unknown;ts:string}
