@@ -1,0 +1,387 @@
+{
+  "assumptions": {
+    "secs_per_screened_record": 30,
+    "secs_per_dedup_pair": 20,
+    "secs_per_pico_abstract": 90
+  },
+  "topics": [
+    {
+      "meta": {
+        "query_version_id": 3,
+        "topic": "Demo: GLP-1 RCTs",
+        "generated_at": "2026-10-28T11:06:10.046134",
+        "collection_secs": 16.2
+      },
+      "assumptions": {
+        "secs_per_screened_record": 30,
+        "secs_per_dedup_pair": 20,
+        "secs_per_pico_abstract": 90
+      },
+      "fetch": {
+        "total_found": 4,
+        "new_stored": 4,
+        "already_stored": 0,
+        "pubmed": 2,
+        "europepmc": 2,
+        "overlap_estimate": 0,
+        "wall_secs": null,
+        "api_calls_estimate": 4,
+        "time_per_100_secs": null
+      },
+      "dedup": {
+        "records": 4,
+        "pairs_total": 0,
+        "exact_duplicates": 0,
+        "fuzzy_extra_duplicates": 0,
+        "uncertain_pairs": 0,
+        "human_overrides": 0,
+        "gold_n": 50,
+        "gold_todo": true,
+        "gold_precision": null,
+        "wall_secs": 15.632015
+      },
+      "screen": {
+        "records": 4,
+        "decisions": {
+          "include": 1,
+          "maybe": 2,
+          "exclude": 1
+        },
+        "machine_excludes": 1,
+        "metadata_exclusions": 2,
+        "algorithm_exclusions": 6,
+        "human_reviewed": 0,
+        "human_overrides": 0,
+        "per_criterion": {
+          "non_human": {
+            "kind": "exclude",
+            "source_type": "metadata",
+            "active": true,
+            "hits": 0,
+            "total_checked": 4
+          },
+          "non_english": {
+            "kind": "exclude",
+            "source_type": "metadata",
+            "active": true,
+            "hits": 0,
+            "total_checked": 4
+          },
+          "simulation": {
+            "kind": "exclude",
+            "source_type": "algorithm",
+            "active": true,
+            "hits": 0,
+            "total_checked": 4
+          },
+          "case_report": {
+            "kind": "exclude",
+            "source_type": "metadata",
+            "active": true,
+            "hits": 0,
+            "total_checked": 4
+          },
+          "pediatric_only": {
+            "kind": "exclude",
+            "source_type": "metadata",
+            "active": true,
+            "hits": 0,
+            "total_checked": 4
+          },
+          "non_primary": {
+            "kind": "exclude",
+            "source_type": "metadata",
+            "active": true,
+            "hits": 1,
+            "total_checked": 4
+          },
+          "human_adult": {
+            "kind": "include",
+            "source_type": "metadata",
+            "active": true,
+            "hits": 1,
+            "total_checked": 4
+          },
+          "trial_design": {
+            "kind": "include",
+            "source_type": "algorithm",
+            "active": true,
+            "hits": 2,
+            "total_checked": 4
+          },
+          "topic_match": {
+            "kind": "include",
+            "source_type": "algorithm",
+            "active": true,
+            "hits": 4,
+            "total_checked": 4
+          }
+        },
+        "wall_secs": 18.201102
+      },
+      "pico": {
+        "records_with_spans": 2,
+        "spans_total": 25,
+        "per_label": {
+          "I": 11,
+          "P": 4,
+          "C": 9,
+          "O": 1
+        },
+        "gold_n_abstracts": 5,
+        "gold_results": {
+          "P": {
+            "precision": 1.0,
+            "recall": 0.6,
+            "tp": 3,
+            "fp": 0,
+            "fn": 2
+          },
+          "I": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 5,
+            "fp": 0,
+            "fn": 0
+          },
+          "C": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 5,
+            "fp": 0,
+            "fn": 0
+          },
+          "O": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 6,
+            "fp": 0,
+            "fn": 0
+          }
+        },
+        "wall_secs": 8.21396
+      },
+      "human_effort": {
+        "machine_decisions": 4,
+        "human_decision_overrides": 0,
+        "pico_edits": 0,
+        "override_rate": 0.0
+      },
+      "time_estimate": {
+        "assumptions": {
+          "secs_per_screened_record": 30,
+          "secs_per_dedup_pair": 20,
+          "secs_per_pico_abstract": 90
+        },
+        "screening": {
+          "machine_handled": 1,
+          "reviewer_still_needed": 3,
+          "saved_mins": 0.5,
+          "cost_mins": 1.5
+        },
+        "dedup": {
+          "machine_handled": 0,
+          "reviewer_still_needed": 0,
+          "saved_mins": 0.0,
+          "cost_mins": 0.0
+        },
+        "pico": {
+          "machine_handled": 2,
+          "reviewer_still_needed": 0,
+          "saved_mins": 3.0,
+          "cost_mins": 0.0
+        },
+        "net_saved_mins": 2.0
+      }
+    },
+    {
+      "meta": {
+        "query_version_id": 4,
+        "topic": "SGLT2 inhibitors in Heart Failure",
+        "generated_at": "2026-10-28T11:06:22.349506",
+        "collection_secs": 12.3
+      },
+      "assumptions": {
+        "secs_per_screened_record": 30,
+        "secs_per_dedup_pair": 20,
+        "secs_per_pico_abstract": 90
+      },
+      "fetch": {
+        "total_found": 5,
+        "new_stored": 5,
+        "already_stored": 0,
+        "pubmed": 4,
+        "europepmc": 1,
+        "overlap_estimate": 1,
+        "wall_secs": null,
+        "api_calls_estimate": 4,
+        "time_per_100_secs": null
+      },
+      "dedup": {
+        "records": 5,
+        "pairs_total": 1,
+        "exact_duplicates": 1,
+        "fuzzy_extra_duplicates": 0,
+        "uncertain_pairs": 0,
+        "human_overrides": 0,
+        "gold_n": 50,
+        "gold_todo": true,
+        "gold_precision": null,
+        "wall_secs": 16.254521
+      },
+      "screen": {
+        "records": 5,
+        "decisions": {
+          "maybe": 4,
+          "exclude": 1
+        },
+        "machine_excludes": 1,
+        "metadata_exclusions": 1,
+        "algorithm_exclusions": 3,
+        "human_reviewed": 0,
+        "human_overrides": 0,
+        "per_criterion": {
+          "non_human": {
+            "kind": "exclude",
+            "source_type": "metadata",
+            "active": true,
+            "hits": 1,
+            "total_checked": 5
+          },
+          "non_english": {
+            "kind": "exclude",
+            "source_type": "metadata",
+            "active": true,
+            "hits": 0,
+            "total_checked": 5
+          },
+          "simulation": {
+            "kind": "exclude",
+            "source_type": "algorithm",
+            "active": true,
+            "hits": 0,
+            "total_checked": 5
+          },
+          "case_report": {
+            "kind": "exclude",
+            "source_type": "metadata",
+            "active": true,
+            "hits": 0,
+            "total_checked": 5
+          },
+          "pediatric_only": {
+            "kind": "exclude",
+            "source_type": "metadata",
+            "active": true,
+            "hits": 0,
+            "total_checked": 5
+          },
+          "non_primary": {
+            "kind": "exclude",
+            "source_type": "metadata",
+            "active": true,
+            "hits": 0,
+            "total_checked": 5
+          },
+          "human_adult": {
+            "kind": "include",
+            "source_type": "metadata",
+            "active": true,
+            "hits": 0,
+            "total_checked": 5
+          },
+          "trial_design": {
+            "kind": "include",
+            "source_type": "algorithm",
+            "active": true,
+            "hits": 3,
+            "total_checked": 5
+          },
+          "topic_match": {
+            "kind": "include",
+            "source_type": "algorithm",
+            "active": true,
+            "hits": 0,
+            "total_checked": 5
+          }
+        },
+        "wall_secs": 16.266155
+      },
+      "pico": {
+        "records_with_spans": 3,
+        "spans_total": 23,
+        "per_label": {
+          "P": 6,
+          "C": 11,
+          "O": 6
+        },
+        "gold_n_abstracts": 5,
+        "gold_results": {
+          "P": {
+            "precision": 1.0,
+            "recall": 0.6,
+            "tp": 3,
+            "fp": 0,
+            "fn": 2
+          },
+          "I": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 5,
+            "fp": 0,
+            "fn": 0
+          },
+          "C": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 5,
+            "fp": 0,
+            "fn": 0
+          },
+          "O": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "tp": 6,
+            "fp": 0,
+            "fn": 0
+          }
+        },
+        "wall_secs": 7.263908
+      },
+      "human_effort": {
+        "machine_decisions": 5,
+        "human_decision_overrides": 0,
+        "pico_edits": 0,
+        "override_rate": 0.0
+      },
+      "time_estimate": {
+        "assumptions": {
+          "secs_per_screened_record": 30,
+          "secs_per_dedup_pair": 20,
+          "secs_per_pico_abstract": 90
+        },
+        "screening": {
+          "machine_handled": 1,
+          "reviewer_still_needed": 4,
+          "saved_mins": 0.5,
+          "cost_mins": 2.0
+        },
+        "dedup": {
+          "machine_handled": 1,
+          "reviewer_still_needed": 0,
+          "saved_mins": 0.3,
+          "cost_mins": 0.0
+        },
+        "pico": {
+          "machine_handled": 3,
+          "reviewer_still_needed": 0,
+          "saved_mins": 4.5,
+          "cost_mins": 0.0
+        },
+        "net_saved_mins": 3.3
+      }
+    }
+  ],
+  "combined_net_saved_mins": 5.3,
+  "generated_at": "2026-10-28T11:06:22.349833"
+}
